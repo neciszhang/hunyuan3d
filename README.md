@@ -17,7 +17,7 @@ Generate 3D models from text or images, manage cloud jobs, and prepare GLB asset
 
 ## Installation
 
-Requires **Node.js 20+**.
+Requires **Node.js 20.9+**.
 
 ```bash
 npm i -g @neciszhang/hunyuan3d
