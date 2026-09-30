@@ -1,8 +1,20 @@
 # hunyuan3d
 
+[English](README.md) | [简体中文](README.zh-CN.md)
+
 Generate 3D models from text or images, manage cloud jobs, and prepare GLB assets from your terminal.
 
 `hunyuan3d` brings Tencent Cloud AI3D generation and local model processing into one CLI for Web 3D, game, and Blender asset workflows. Cloud operations use Tencent Cloud's official AI3D Node SDK. Local tools use glTF-Transform, Sharp, and optional Blender integration. This package is an independent CLI project.
+
+## From a reference image to an interactive scene
+
+This horizontal walkthrough uses real images from the 0918 scene to show the input, intermediate references, models, Blender assembly, and final browser experience. Click the diagram to view it at full size.
+
+[![Image-to-scene workflow: references, model generation, Blender assembly, export, and interactive web output](https://raw.githubusercontent.com/neciszhang/hunyuan3d/main/docs/assets/workflow-en.png)](https://github.com/neciszhang/hunyuan3d/blob/main/docs/assets/workflow-en.png)
+
+**CLI scope:** cloud job submission, polling, downloads, and local asset processing. Reference-image creation, scene composition, animation authoring, and web UI integration use separate tools. These historical images illustrate the wider workflow; they do not claim that the current CLI generated the old assets.
+
+[Workflow details](https://github.com/neciszhang/hunyuan3d/blob/main/docs/workflow.md) · [中文流程说明](https://github.com/neciszhang/hunyuan3d/blob/main/docs/workflow.zh-CN.md)
 
 ## Features
 
