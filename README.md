@@ -20,7 +20,7 @@ Generate 3D models from text or images, manage cloud jobs, and prepare GLB asset
 Requires **Node.js 20+**.
 
 ```bash
-npm i -g hunyuan3d
+npm i -g @neciszhang/hunyuan3d
 hunyuan3d --help
 hunyuan3d doctor
 ```
@@ -28,7 +28,7 @@ hunyuan3d doctor
 Or install in a project and run with `npx`:
 
 ```bash
-npm i hunyuan3d
+npm i @neciszhang/hunyuan3d
 npx hunyuan3d --help
 ```
 

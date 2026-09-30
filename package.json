@@ -1,5 +1,5 @@
 {
-  "name": "hunyuan3d",
+  "name": "@neciszhang/hunyuan3d",
   "version": "0.7.2",
   "description": "Hunyuan 3D CLI for text/image-to-3D generation, resumable Tencent Cloud AI3D jobs, and local GLB optimization.",
   "type": "module",
