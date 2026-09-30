@@ -1,6 +1,6 @@
 {
   "name": "@neciszhang/hunyuan3d",
-  "version": "0.7.3",
+  "version": "0.7.4",
   "description": "Hunyuan 3D CLI for text/image-to-3D generation, resumable Tencent Cloud AI3D jobs, and local GLB optimization.",
   "type": "module",
   "engines": {
@@ -15,8 +15,7 @@
     "blender/normalize.py",
     "docs/sdk-requests.md",
     "docs/handoff.md",
-    "README.md",
-    "npm-shrinkwrap.json"
+    "README.md"
   ],
   "scripts": {
     "test": "node --test"
