@@ -1,0 +1,11 @@
+node_modules/
+dist/
+runs/
+*.tgz
+.DS_Store
+.env
+.env.*
+.npmrc
+*.log
+__pycache__/
+*.pyc

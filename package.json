@@ -1,0 +1,58 @@
+{
+  "name": "hunyuan3d",
+  "version": "0.7.2",
+  "description": "Hunyuan 3D CLI for text/image-to-3D generation, resumable Tencent Cloud AI3D jobs, and local GLB optimization.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "hunyuan3d": "bin/hunyuan3d.js"
+  },
+  "files": [
+    "bin/*.js",
+    "src/*.js",
+    "blender/normalize.py",
+    "docs/sdk-requests.md",
+    "docs/handoff.md",
+    "README.md",
+    "npm-shrinkwrap.json"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@gltf-transform/cli": "4.5.0",
+    "@gltf-transform/core": "4.5.0",
+    "@gltf-transform/extensions": "4.5.0",
+    "@gltf-transform/functions": "4.5.0",
+    "sharp": "0.35.3",
+    "tencentcloud-sdk-nodejs-ai3d": "4.1.310"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "keywords": [
+    "hunyuan3d",
+    "hunyuan",
+    "3d",
+    "ai3d",
+    "tencent-cloud",
+    "text-to-3d",
+    "image-to-3d",
+    "cli",
+    "glb",
+    "gltf",
+    "blender",
+    "gltf-transform"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neciszhang/hunyuan3d.git"
+  },
+  "homepage": "https://github.com/neciszhang/hunyuan3d#readme",
+  "bugs": {
+    "url": "https://github.com/neciszhang/hunyuan3d/issues"
+  }
+}
